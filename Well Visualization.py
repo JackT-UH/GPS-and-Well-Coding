@@ -141,12 +141,10 @@ def create_individual_plots(name, plots):
     plt.close()
 
 def create_individual_plots(name, plots):
-    """Create individual detailed plots for each well."""
-    # ...existing code...
     plt.close()
 
 def generate_summary_statistics(all_plots_data):
-    """Generate a CSV with summary statistics for all wells."""
+    #Generate a CSV with summary statistics for all wells.
     summary_data = []
     
     for well_name, plots in all_plots_data:
