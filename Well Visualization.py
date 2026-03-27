@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -186,4 +185,4 @@ if all_plots_data:
     plt.show()
 else:
     print("No valid files found to process.")
-
+    
